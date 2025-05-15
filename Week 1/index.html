@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adonai College</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Adonai College</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#academics">Academics</a></li>
+                <li><a href="#facilities">Facilities</a></li>
+                <li><a href="#staff">Staff</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <section id="about">
+            <h2>About Our School</h2>
+            <p>Founded in <time datetime="1985">1985</time>, Adonai College has been providing quality education for over <strong>35 years</strong>. Our mission is to nurture young minds and prepare them for the challenges of tomorrow.</p>
+            
+            <article>
+                <h3>Our Vision</h3>
+                <p>To create a learning environment that fosters <em>creativity, critical thinking</em>, and <em>character development</em>.</p>
+            </article>
+            
+            <article>
+                <h3>School Motto</h3>
+                <blockquote>"Knowledge without boundaries"</blockquote>
+            </article>
+        </section>
+
+
+        <section id="academics">
+            <h2>Academic Programs</h2>
+            <p>We offer a comprehensive curriculum that includes:</p>
+            
+            <table border="1">
+                <caption>Our Academic Departments</caption>
+                <thead>
+                    <tr>
+                        <th>Department</th>
+                        <th>Courses Offered</th>
+                        <th>Departmental Head</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Science</td>
+                        <td>Physics, Chemistry, Biology</td>
+                        <td>Davido Adeleke</td>
+                    </tr>
+                    <tr>
+                        <td>Mathematics</td>
+                        <td>Algebra, Geometry, Calculus</td>
+                        <td>Chris Brown</td>
+                    </tr>
+                    <tr>
+                        <td>Humanities</td>
+                        <td>History, Literature, Philosophy</td>
+                        <td>Serena Williams</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <h3>Extracurricular Activities</h3>
+            <ul>
+                <li>Debate Club</li>
+                <li>Science Olympiad</li>
+                <li>Music Band</li>
+                <li>Sports Teams</li>
+                <li>Games Teams</li>
+            </ul>
+        </section>
+
+        <section id="facilities">
+            <h2>Our Facilities</h2>
+            <p>Adonai College boasts state-of-the-art facilities including:</p>
+            
+            <div>
+                <h3>Library</h3>
+                <p>Our library contains over <mark>20,000 volumes</mark> and digital resources.</p>
+            </div>
+            
+            <div>
+                <h3>Science Labs</h3>
+                <p>Fully equipped laboratories for Physics, Chemistry, and Biology.</p>
+            </div>
+            
+            <div>
+                <h3>Sports Complex</h3>
+                <p>Includes:</p>
+                <ol>
+                    <li>Basketball court</li>
+                    <li>Soccer field</li>
+                    <li>Swimming pool</li>
+                    <li>Track and field</li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- Staff Section -->
+        <section id="staff">
+            <h2>Meet Our Staff</h2>
+            <figure>
+                <figcaption>Principal: Mr. Sapa No Good</figcaption>
+                <img src="principal.jpg" alt="Principal Mr. Sapa No Good" width="200">
+            </figure>
+            
+            <p>Our faculty includes <small>50</small> highly qualified teachers with an average of <small>15</small> years experience.</p>
+            
+            <details>
+                <summary>View Teaching Staff</summary>
+                <ul>
+                    <li>Mathematics Department (8 teachers)</li>
+                    <li>Science Department (10 teachers)</li>
+                    <li>Arts Department (5 teachers)</li>
+
+                </ul>
+            </details>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <address>
+                Adonai College<br>
+                27 Afolabi Motor Way<br>
+                Lagos<br>
+                Phone: <a href="tel:+2341111111111">+2341111111111</a><br>
+                Email: <a href="mailto:info@adonaicollege.edu">info@adonaicollege.edu</a>
+            </address>
+            
+            <h3>School Hours</h3>
+            <p>Monday-Friday: <time>8:00 AM</time> - <time>3:30 PM</time></p>
+            
+            <h3>Send Us a Message</h3>
+            <form action="/submit_form" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                
+                <fieldset>
+                    <legend>Are you a:</legend>
+                    <input type="radio" id="parent" name="role" value="parent" checked>
+                    <label for="parent">Parent</label>
+                    
+                    <input type="radio" id="student" name="role" value="student">
+                    <label for="student">Student</label>
+                    
+                    <input type="radio" id="other" name="role" value="other">
+                    <label for="other">Other</label>
+                </fieldset><br>
+                
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span>2025</span> Adonai College. All rights reserved.</p>
+        <p>Follow us on <a href="https://facebook.com/adonaicollege">Facebook</a> and <a href="https://twitter.com/adonaicollege">Twitter</a></p>
+    </footer>
+</body>
+</html>
